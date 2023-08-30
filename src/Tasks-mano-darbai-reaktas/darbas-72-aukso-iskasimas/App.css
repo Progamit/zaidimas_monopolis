@@ -1,0 +1,159 @@
+
+.d-flex {
+    display: flex;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.cont-start {
+    align-content: flex-start;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-start {
+    align-content: start;
+}
+
+.gap10 {
+    gap: 10px
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.grow1 {
+    flex: 1
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.p50 {
+    padding: 50px;
+}
+
+.mr-2 {
+    margin-right: 20px;
+}
+
+
+.toolbar {
+    padding: 15px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.toolbar > .upgrade {
+    padding: 20px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.invCont {
+    height: 500px;
+}
+
+.inventory {
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.inventory > div {
+    padding: 10px;
+    width: 100px;
+    border: 1px solid gray;
+
+}
+
+.inventory img {
+    width: 100%;
+}
+
+
+.sellButton {
+    padding: 20px;
+    text-align: center;
+    background-color: #5d5d5d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.goldPrice {
+    border: 2px solid gray;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.progress {
+    height: 20px;
+    width: 100%;
+    background-color: #b5b5b5;
+    margin-bottom: 20px;
+}
+
+.progress > div {
+    height: 100%;
+    background-color: mediumspringgreen;
+}
+
+.money {
+    text-align: center;
+}
+
+.digButton {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 10px solid #565656;
+    transition: 0.1s;
+    margin-top: 0;
+
+}
+
+.digButton:hover {
+    margin-top: 10px;
+
+    border-bottom: 0px solid #565656;
+    /*transform: translateY(10px);*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

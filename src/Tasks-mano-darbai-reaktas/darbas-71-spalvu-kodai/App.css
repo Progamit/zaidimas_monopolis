@@ -1,0 +1,76 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-start {
+    align-content: start;
+}
+
+.gap10 {
+    gap: 10px
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.grow1 {
+    flex: 1
+}
+.flex-end {
+    justify-content: flex-end;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.box {
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.box > div {
+    margin-top: 50px;
+}
+
+.container {
+    padding: 100px;
+}
+
+.progress {
+    width: 20px;
+    background-color: darkgray;
+}
+.progress > div {
+    background-color: #FA8072;
+    width: 100%;
+    height: 20%;
+}
+
+.boxes > div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.check input{
+    height: 50px;
+    width: 50px;
+}
+
+.smallBox {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+}

@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: gold;
+}
+
+body {
+    background: burlywood;
+}
+
+.gameStartPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+h1 {
+
+}
+
+.choicesContainer {
+    background: darkgreen;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    width: 1000px;
+    justify-content: center;
+}
+
+.choice {
+    border: 1px solid darkslategray;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #61dafb;
+}
+
+.choice:hover {
+    background: rosybrown;
+}
+
+.choice img {
+    height: 150px;
+    width: 150px;
+}
+
+.startGameBtn {
+    padding: 20px;
+    cursor: pointer;
+    color: teal;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    background: red;
+    font-weight: bold;
+}
+
+.startGameBtn:hover {
+    background: mediumvioletred;
+}
+
+.errorMessage {
+    background: orangered;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.gameBoardContainer {
+    height: 100vh;
+    display: flex;
+}
+
+.gameBoard {
+    padding: 20px;
+    flex: 4;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+            "card1 card2 card3 card4 card5"
+            "card16 dice dice dice card6"
+            "card15 dice dice dice card7"
+            "card14 dice dice dice card8"
+            "card13 card12 card11 card10 card9"
+}
+
+.boughtCardsContainer {
+    flex: 1;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px;
+    background: lavenderblush;
+    overflow: auto;
+}
+
+.card {
+    border: 2px solid black;
+    color: chocolate;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.cardContent {
+    flex: 2;
+    background: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.cardContent img {
+    border-radius: 50%;
+    background:lavenderblush;
+    height: 30px;
+    width: 30px;
+    border: 1px solid darkorchid;
+}
+
+.buyBtn {
+    flex: 1;
+    background: teal;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: firebrick;
+    justify-content: center;
+    border-top: 5px solid black;
+    pointer-events: none;
+}
+
+.buyBtn:hover {
+    background: beige;
+}
+
+.available {
+    background: cadetblue;
+    pointer-events: auto;
+}
+
+.available:hover {
+    background: darkgoldenrod;
+}
+
+.notAvailable {
+    background: red;
+}
+
+.owned {
+    background: blueviolet;
+    pointer-events: none;
+}
+
+.playerMoney {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.playerMoney span {
+    color: royalblue;
+}
+
+.playerMoney img {
+    height: 85px;
+    width: 85px;
+}
+
+.boughtCard {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    overflow: auto;
+    border: 1px solid #2a2a2a;
+    margin-top: 11px;
+}
+
+.boughtCardContent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.boughtCard h4 {
+    padding: 10px;
+    font-weight: normal;
+}
+
+.boughtCard h4 span {
+    font-weight: bold;
+}
+
+.sellBtn {
+    background: dodgerblue;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid royalblue;
+    cursor: pointer;
+}
+
+.sellBtn:hover {
+    background: lavenderblush;
+}
+
+.dice {
+    grid-area: dice;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dice img {
+    height: 250px;
+    width: 190px;
+}
+
+.diceBtn {
+    text-align: center;
+    background: dodgerblue;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.diceBtn:hover {
+    background: #135fa2;
+}

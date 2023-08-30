@@ -1,0 +1,26 @@
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.grow1 {
+    flex: 1
+}
+
+.box {
+    padding: 20px;
+
+}
+
+.container {
+    padding: 100px;
+}
+
+.userCard {
+    padding: 10px;
+    border: 1px solid black;
+}

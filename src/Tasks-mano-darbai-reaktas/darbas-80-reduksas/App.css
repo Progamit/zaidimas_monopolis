@@ -1,0 +1,102 @@
+.d-flex {
+    display: flex;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.cont-start {
+    align-content: flex-start;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-start {
+    align-content: start;
+}
+
+.gap10 {
+    gap: 10px
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.grow1 {
+    flex: 1
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.p50 {
+    padding: 50px;
+}
+
+.mr-2 {
+    margin-right: 20px;
+}
+
+
+.toolbar {
+    padding: 20px;
+}
+
+input {
+    padding: 20px;
+    margin: 10px;
+}
+
+a {
+    margin: 10px;
+}
+
+.user {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.user img {
+    width: 100%;
+}
+
+.userImage{
+    width: 100%;
+}
+
+.colorBox {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.colors > div {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.d-flex {
+    display: flex;
+}
+
+.grow1 {
+    flex: 1
+}
+
+.box {
+    padding: 20px;
+
+}
